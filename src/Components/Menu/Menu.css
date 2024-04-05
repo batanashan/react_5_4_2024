@@ -1,0 +1,48 @@
+.menu>li{
+    list-style-type: none;
+       font-size: 25px;
+    display: inline;
+    margin-right: 40px;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+.menu{
+    text-align: right;
+    background-color: rgb(230, 209, 182);
+}
+.mobile-btn{
+ position:absolute;
+
+    right: 5px;
+    width: 46px;
+    height: 36px;
+    top: 73px;
+    border-radius: 7px;
+}
+.mobile-btn>span{
+
+    border:1px solid black;
+    margin:4px;
+    display: block;
+   
+}
+.mobile-menu{
+    border:1px solid black;
+    position:relative;
+    top:3px;
+    display: inline-block;
+    margin-left:5px;
+    padding:0;
+    transition: left 2s;
+    background-color: aqua;
+}
+.mobile-menu>li{
+    list-style-type: none;
+    display:block;
+    margin:10px;
+    letter-spacing: 3px ;
+    font-size: 20px;
+ 
+
+
+}
